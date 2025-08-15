@@ -1,0 +1,5 @@
+a=int(input())
+b=int(input())
+mi=min(a,b)
+ma=max(a,b)
+print(2*mi+(ma-mi)%2)
