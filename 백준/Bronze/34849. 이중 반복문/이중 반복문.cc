@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cin>>n;
+    if (n<=10000)cout<<"Accepted";
+    else cout<<"Time limit exceeded";
+    return 0;
+}
